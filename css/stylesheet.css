@@ -1,0 +1,42 @@
+a>img {
+    height: 80px;
+    width: 80px;
+}
+
+#section6 {
+    background-color: #ccffff;
+}
+
+#section5 {
+    background-color: #ccffcc;
+}
+
+#section4 {
+    background-color: #ccff99;
+}
+
+#section3 {
+    background-color: #ccff66;
+}
+
+#section2 {
+    background-color: #ccff33;
+}
+
+#section1 {
+background:black;
+    color:white;
+}
+nav>ul {
+    list-style: none;
+}
+
+section {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    margin:20px;
+}
+.photo {
+    width: 300px;
+    height: auto;
+}
