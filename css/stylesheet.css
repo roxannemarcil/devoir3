@@ -1,3 +1,7 @@
+body {
+    font-family: lato;
+    margin:0;
+}
 a>img {
     height: 80px;
     width: 80px;
@@ -27,6 +31,7 @@ a>img {
 background:black;
     color:white;
 }
+
 nav>ul {
     list-style: none;
 }
@@ -34,9 +39,16 @@ nav>ul {
 section {
     border-bottom: 1px solid black;
     padding: 20px;
-    margin:20px;
+    margin-bottom: 20px;
 }
+
 .photo {
     width: 300px;
     height: auto;
+}
+
+a{
+    color:white;
+    background-color: black;
+    text-decoration: none;
 }
