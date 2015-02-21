@@ -10,23 +10,24 @@ a>img {
 }
 
 #section6 {
-    background-color: #ccffff;
+    background-color: white;
 }
 
 #section5 {
-    background-color: #ccffcc;
+    background-color: #f8f8f8;
 }
 
 #section4 {
-    background-color: #ccff99;
+    background-color: white;
 }
 
 #section3 {
-    background-color: #ccff66;
+    background-url: http://api.thumbr.it/whitenoise-361x370.png?background=edf0f2ff&noise=626262&density=5&opacity=27;
+    background-color: #f8f8f8;
 }
 
 #section2 {
-    background-color: #ccff33;
+    background-color: white;
 }
 
 #section1 {
@@ -62,4 +63,13 @@ section ul li {
 
 .projets li p {
     font: 100 1em/1.5em 'Roboto';
+    font-size: medium;
+}
+
+#section1 {
+    background-image: url("../css/r7Z09Ht.gif");
+}
+#section2 a {
+    color:black;
+    text-decoration: none;
 }
