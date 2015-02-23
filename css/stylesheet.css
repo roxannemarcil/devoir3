@@ -98,9 +98,9 @@ text-align: center;
 #section4 li {
     list-style: none;
 }
-nav li {
+
+#section2 li {
     display: inline-block;
-    border: 1px solid black;
     padding: 1px;
 }
 
@@ -114,10 +114,10 @@ img.westfalia {
     height: auto;
 }
 
-img.photo {
-    background-repeat: no-repeat;
+img.photo, img.projets {
+    ackground-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
     width: 200px;
-    height: 200px;
+    height: 200px;b
 }
