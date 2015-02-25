@@ -75,11 +75,13 @@ section ul li {
     margin: 2% ;
     font: 100 1em/1.5em 'Roboto';
     font-size: medium;
+    text-align: justify;
 }
 
 #section4 p {
     font: 100 1em/1.5em 'Roboto';
     font-size: medium;
+    text-align: justify;
 }
 
 nav {
@@ -88,11 +90,13 @@ text-align: center;
 
 #section1 p,h1 {
     background-color: rgba(255, 68, 68, 0.35);
+    width: 350px;
 }
 
 #section3 p {
     font: 100 1em/1.5em 'Roboto';
     font-size: medium;
+
 }
 
 #section4 li {
@@ -115,9 +119,19 @@ img.westfalia {
 }
 
 img.photo, img.projets {
-    ackground-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
     width: 200px;
-    height: 200px;b
+    height: 200px;
 }
+
+ul.palette li {
+    height: 20px;
+    margin: 0px;
+}
+
+#section3 li p {
+    line-height: 2;
+}
+
