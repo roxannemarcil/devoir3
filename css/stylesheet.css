@@ -2,6 +2,18 @@ body {
     font-family: 'roboto',sans-serif;
     font-size:24px;
     margin:0;
+    padding-top: 76px;
+    background-color: pink;
+
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0px;
 }
 
 a>img {
@@ -27,6 +39,12 @@ a>img {
 
 #section2 {
     background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgb(108, 225, 229);
+    padding: 0px;
 }
 
 #section1 {
@@ -65,7 +83,10 @@ section ul li {
 #section2 a {
     color:black;
     text-decoration: none;
+    padding: 2px;
+
 }
+
 #section2 a {
     background-color: #50D2D5;
 }
@@ -104,7 +125,8 @@ text-align: center;
 
 #section2 li {
     display: inline-block;
-    padding: 1px;
+    padding: 0px;
+    margin: 0px;
 }
 
 img.collectif {
