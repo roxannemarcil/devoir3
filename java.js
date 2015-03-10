@@ -14,3 +14,22 @@ if (ageUtilisateur > 0)
 else {
     console.log ("Tu n'as pas entré ton âge !!");
 }
+
+// ÉTAPE 4 //
+
+var chiffre = (prompt ("Entrer un chiffre entre 0 et 100"));
+
+chiffre = parseInt(chiffre);
+
+console.log (chiffre)
+
+if (isNaN(chiffre))
+{
+    alert ("Mauvaise entrée !!");
+}
+else {
+    alert ("Merci !!");
+}
+
+// ÉTAPE 5 //
+
